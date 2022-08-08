@@ -1,0 +1,56 @@
+Featured Added:
+- seeks user input for how many cards are added
+
+
+Testing Case 1: 1 deck
+
+Expected:
+There are 52 cards in this game with 1 deck
+
+Result:
+How many decks of cards would you like to play with between 1 to 4
+1
+
+There are 52 cards in this game with 1 deck>> 
+
+
+Testing Case 2: 2 decks
+
+Expected:
+There are 104 cards in this game with 2 decks
+
+Result:
+How many decks of cards would you like to play with between 1 to 4
+2
+
+There are 104 cards in this game with 2 decks>> 
+
+
+
+Testing Case 3: 3 decks
+
+Expected:
+There are 156 cards in this game with 3 decks
+
+Result:
+How many decks of cards would you like to play with between 1 to 4
+3
+
+There are 156 cards in this game with 3 decks>> 
+
+
+
+
+Testing Case 4: 4 decks
+
+Expected:
+There are 208 cards in this game with 4 decks
+
+Result:
+How many decks of cards would you like to play with between 1 to 4
+4
+
+There are 208 cards in this game with 4 decks>> 
+
+
+Comments: all of the testing cases worked as expected

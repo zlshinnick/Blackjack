@@ -1,0 +1,24 @@
+%%Function to display the blackjack rules
+
+%simple function takes to parameters, its only functionallity is to display
+%the rules of the black jack game
+
+%will only run if the user has selected that they wnat to read the rules of
+%the game
+function[]=Rules()
+
+fprintf("\nThe rules are:\n")
+pause(2)
+fprintf("\n1. The goal of the game is to beat the dealers hand without going over 21\n")
+pause(2)
+fprintf("\n2. Jacks, Queens, Kings are all worth and represented with the value 10\n")
+pause(2)
+fprintf("\n3. Aces are worth 1 or 11, whichever makes a better hand\n")
+pause(2)
+fprintf("\n4. The player starts with 2 cards and can 'hit' to ask for another card, or 'stand' to hold your total\n")
+pause(2)
+fprintf("\n5. If the player is dealt an Ace and 10 to start, this is blackjack and the user will be paid twice the amount of your bet\n")
+pause(2)
+fprintf("\n6. The dealer will continue to hit untill their total is 17 or higher")
+pause(5)
+end

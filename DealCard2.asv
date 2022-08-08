@@ -1,0 +1,37 @@
+%this function deals a card and takes it out of the deck array, returning
+%the playing card and updated deck, taking the parameters of the deck and
+%the sum of hand of the player whos card is being drawn
+function[card,UpdatedDeck]=DealCard2(deck,SumOfHand)
+
+%initilizing the card to -1
+card =-1;
+
+%choosing a random index from the deck
+drawnCardIndex = randi([1,length(deck)],1);
+
+drawnCard = deck(drawnCardIndex);
+
+UpdatedDeck = deck([1:(drawnCardIndex-1), (drawnCardIndex+1):end]);
+
+
+if drawnCard >1 && drawnCard <11;
+    card = drawnCard;
+
+
+else if drawnCard >10 && drawnCard <= 13;
+        card = 10;
+
+else if drawnCard == 1
+        if SumOfHand < 11
+            card = 11;
+            if SumOfHand >11
+                card=1;
+            end
+        end
+end
+end
+end
+end
+
+
+

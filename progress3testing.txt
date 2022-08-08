@@ -1,0 +1,11 @@
+Added features:
+- loops continously 
+
+Test 1:
+Expected: Asks the player if they want to play again then they can play again
+
+Test 2:
+Expected: Asks the player if they want to play again then they can play again
+
+Test 3:
+Expected: Asks the player if they want to play again then they can play again

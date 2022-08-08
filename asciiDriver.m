@@ -1,0 +1,1 @@
+ascII2('WinnerArt2.png',2)

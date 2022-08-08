@@ -1,0 +1,78 @@
+Features Added:
+- Stand funciton functionallity
+- Dealer is now assigned card from 17 <= Dealer Hand < 21
+- Checks for winner and displays
+
+Test 1:
+Your hand is 10, 8
+The total of your hand is 18
+
+The dealer has a 11
+
+Enter 1 to hit, or 2 to stand1
+
+PlayerHand =
+
+    10     8     3
+
+Your hand is now
+    10     8     3
+
+The total of your hand is 21
+You have 21, you WIN
+
+Comments: Script ran as expected
+
+
+Test 2:
+Your hand is 4, 9
+The total of your hand is 13
+
+The dealer has a 6
+
+Enter 1 to hit, or 2 to stand1
+
+PlayerHand =
+
+     4     9     3
+
+Your hand is now
+     4     9     3
+
+The total of your hand is 16
+Enter 1 to hit, or 2 to stand2
+You have chosen to stand, the dealer will now draw
+the dealer has drawn a 2
+the total of dealer hand is 8
+
+the dealer will draw another card
+the dealer has drawn a 2
+the dealer will draw another card
+the dealer has drawn a 7
+the dealer will draw another card
+the dealer has drawn a 2
+Dealer has 19, Player has 16, DEALER WINS
+
+Comments: Script ran as expected
+
+Test 3:
+Your hand is 8, 10
+The total of your hand is 18
+
+The dealer has a 5
+
+Enter 1 to hit, or 2 to stand2
+You have chosen to stand, the dealer will now draw
+the dealer has drawn a 6
+the total of dealer hand is 11
+
+the dealer will draw another card
+the dealer has drawn a 6
+the dealer will draw another card
+the dealer has drawn a 4
+Dealer has 18, Player has 18, STANDOFF
+
+Comments: Script ran as expected
+
+
+

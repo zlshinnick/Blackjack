@@ -1,0 +1,39 @@
+The progress 1 function should 
+1. deal player 2 cards and dealer 1 card
+2. ask user to hit or stand
+3. tell the user if they bust or not
+
+
+Testing Case 1 - Hiting and Busting
+Expected output:
+
+            The total of your hand is X
+            X, you have busted, the dealer wins
+
+
+Model:
+            Player Hand  = [6, 10]
+
+            hit     
+
+            Player hand = [6, 10, 10]
+
+
+Result:  
+            The total of your hand is 26
+            26, you have busted, the dealer wins
+
+Comments:   Script ran as expected
+
+Testing Case 2 - Standing
+Expected output: Script Should Stop
+
+
+
+Model:
+           Choosing to stop stand by pressing 2 when prompted
+
+Result:  
+           Script Stopped
+
+Comments:  Script ran as expected
